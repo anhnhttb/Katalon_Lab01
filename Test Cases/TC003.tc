@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>Không nhập username - Nhập pass</description>
    <name>TC003</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>ae64c11a-b9eb-46ea-8c4f-87db166d7cd6</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>ThisIsNotAPassword</description>
+      <id>be63253f-9a37-45fa-ae88-56b8b6853930</id>
+      <masked>false</masked>
+      <name>pass</name>
+   </variable>
 </TestCaseEntity>

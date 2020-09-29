@@ -22,11 +22,17 @@ WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
 
 WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/a_Make Appointment'))
 
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Username_username'))
+WebUI.waitForElementPresent(findTestObject('Page_CURA Healthcare Service/input_Password_password'), 30)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Password_password'), 'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Password_password'), pass)
 
 WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/button_Login'))
 
-WebUI.closeBrowser()
+WebUI.waitForElementPresent(findTestObject('Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5'), 
+    30)
+
+WebUI.verifyElementText(findTestObject('Object Repository/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5'), 
+    'Login failed! Please ensure the username and password are valid.')
+
+WebUI.closeBrowser(FailureHandling.STOP_ON_FAILURE)
 

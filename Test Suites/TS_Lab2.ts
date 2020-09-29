@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
-   <description></description>
-   <name>TS_Login</name>
+   <description>Vetify - Wait - Đặt biến</description>
+   <name>TS_Lab2</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,9 +10,9 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>b816fe0b-2e8f-4220-979c-570a2f1d802f</testSuiteGuid>
+   <testSuiteGuid>8c178485-a3c7-4d9d-9c8b-fa5056462e4b</testSuiteGuid>
    <testCaseLink>
-      <guid>e98528cd-04df-4125-af69-d38e01c92903</guid>
+      <guid>f0c4d224-fef2-4791-bd57-28abeb3c228a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/TC001</testCaseId>
@@ -24,7 +24,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>41774a84-3c71-4477-bf38-55c13d80dd11</guid>
+      <guid>b9691236-4828-4330-8c4f-5edb30d7f935</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/TC002-TaoBienPASSWORD</testCaseId>
@@ -36,7 +36,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>f7a7b8b8-6a89-40ef-81eb-dded0c1ee186</guid>
+      <guid>a7705b22-ef82-4e82-9cfa-1b3888b068d3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/TC003</testCaseId>
@@ -48,7 +48,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>b79d1bac-aced-47e5-840a-47f28204b005</guid>
+      <guid>955d4d6e-468d-4b09-9c99-7a5577e7cb5a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/TC004</testCaseId>
@@ -60,9 +60,21 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>f2fd5118-403c-47a6-87df-1b23d2f6758f</guid>
+      <guid>449df4cc-1a95-4e35-bb5f-c8db2962804c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/TC005</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2ebffabf-abb4-49e8-9e71-c0ffaa8afade</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC006</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>87d1b541-2341-4457-926c-909bc226105f</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
