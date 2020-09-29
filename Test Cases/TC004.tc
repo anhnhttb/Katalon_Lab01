@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>Nhập username - Không nhập pass</description>
    <name>TC004</name>
    <tag></tag>
    <comment></comment>
