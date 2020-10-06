@@ -6,12 +6,12 @@
    <elementGuidId>cac7c148-777a-4405-bcc6-e462b6cacb51</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>i.fa.fa-bars</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//a[@id='menu-toggle']/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.fa.fa-bars</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -3,15 +3,15 @@
    <description></description>
    <name>input_Password_password</name>
    <tag></tag>
-   <elementGuidId>327e08e6-3c6b-4a4a-8444-872903335d5d</elementGuidId>
+   <elementGuidId>1461e73c-1d24-4ba8-ac82-4b49d1a64b35</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>#txt-password</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//input[@id='txt-password']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#txt-password</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

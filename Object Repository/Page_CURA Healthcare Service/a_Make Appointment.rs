@@ -6,16 +6,12 @@
    <elementGuidId>af321fd3-5c33-4d2f-bb88-f1ff440d20e3</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#btn-make-appointment</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@id = 'btn-make-appointment' and @href = './profile.php#login' and (text() = 'Make Appointment' or . = 'Make Appointment')]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//a[@id='btn-make-appointment']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#btn-make-appointment</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
