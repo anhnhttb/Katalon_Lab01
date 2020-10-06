@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Login,Chrome 85.0.4183.102,,,22/9/2020 16:51,22/9/2020 16:52,1m - 20.408s,PASSED
+,,,,,,,
+Test Cases/TC001,Chrome 85.0.4183.102,,,22/9/2020 16:51,22/9/2020 16:52,1m - 5.277s,PASSED
+,,,,,,,
+Test Cases/TC002,Chrome 85.0.4183.102,,,22/9/2020 16:52,22/9/2020 16:52,14.690s,PASSED
