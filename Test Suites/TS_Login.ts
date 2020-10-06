@@ -64,5 +64,17 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/TC005</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ec506b3b-7ff3-4730-bf7f-a41bda2a96d0</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>49596ae9-b29f-4256-98f0-1994a2f23367</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
